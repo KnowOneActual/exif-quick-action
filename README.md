@@ -1,3 +1,7 @@
+![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-blue)
+![Maintained](https://img.shields.io/badge/Maintained%3F-Yes-brightgreen)
+
+
 # EXIF Scrubber
 
 A simple macOS script and Automator Quick Action to interactively review and strip all metadata from files using the powerful [ExifTool](https://exiftool.org/).
