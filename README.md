@@ -1,5 +1,9 @@
 
 # EXIF Scrubber
+![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Maintained](https://img.shields.io/badge/Maintained%3F-Yes-brightgreen)
+[![Open Issues](https://img.shields.io/github/issues/knowoneactual/exif-quick-action)](https://github.com/knowoneactual/exif-quick-action/issues)
 
 A simple way to interactively review and strip all metadata from your files using the powerful [ExifTool](https://exiftool.org/).
 
