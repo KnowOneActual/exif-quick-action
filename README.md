@@ -14,7 +14,7 @@ Photos and documents contain hidden metadata (like GPS location, device informat
 
 ### **Supported File Types**
  
-Because this tool uses the powerful ExifTool engine, it supports reading and writing metadata for various file types, including JPEG, PNG, TIFF, MP4, and many others. It can also create metadata-only files like XMP and MIE.
+Because this tool uses the powerful ExifTool engine, it supports reading and writing metadata for various file types, including JPEG, PNG, TIFF, MP4, and many others. It can also create metadata-only files like XMP and MIE. I mainly use it for PNGs and JPGs.
 
 Essentially, if a file is known to contain metadata, ExifTool can likely handle it. You can see the complete list of supported file types on the [official ExifTool website](https://exiftool.org/#supported).
 
