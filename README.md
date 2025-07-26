@@ -13,15 +13,10 @@ A simple way to interactively review and strip all metadata from your files usin
 Photos and documents contain hidden metadata (like GPS location, device information, and creation time) that you might not want to share. This tool provides a safe, interactive way to view that data and remove it before sharing a file.
 
 ### **Supported File Types**
+ 
+Because this tool uses the powerful ExifTool engine, it supports reading and writing metadata for various file types, including JPEG, PNG, TIFF, MP4, and many others. It can also create metadata-only files like XMP and MIE.
 
-Because this tool uses the powerful ExifTool engine, it can read and write metadata for a vast range of file types. This includes, but is not limited to:
-
-* **Common Image Formats:** JPG, PNG, GIF, TIFF, and PSD
-* **Camera RAW Formats:** CR2, NEF, ARW, DNG, and many more
-* **Video & Audio:** MP4, MOV, MP3, and WAV
-* **Documents:** PDF, and even Microsoft Office and LibreOffice files
-
-Essentially, if a file is known to contain metadata, ExifTool can likely handle it. You can see the complete list of supported file types on the [official ExifTool website](https://exiftool.org/).
+Essentially, if a file is known to contain metadata, ExifTool can likely handle it. You can see the complete list of supported file types on the [official ExifTool website](https://exiftool.org/#supported).
 
 
 
