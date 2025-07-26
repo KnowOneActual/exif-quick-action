@@ -12,10 +12,22 @@ A simple way to interactively review and strip all metadata from your files usin
 
 Photos and documents contain hidden metadata (like GPS location, device information, and creation time) that you might not want to share. This tool provides a safe, interactive way to view that data and remove it before sharing a file.
 
+### **Supported File Types**
+
+Because this tool uses the powerful ExifTool engine, it can read and write metadata for a vast range of file types. This includes, but is not limited to:
+
+* **Common Image Formats:** JPG, PNG, GIF, TIFF, and PSD
+* **Camera RAW Formats:** CR2, NEF, ARW, DNG, and many more
+* **Video & Audio:** MP4, MOV, MP3, and WAV
+* **Documents:** PDF, and even Microsoft Office and LibreOffice files
+
+Essentially, if a file is known to contain metadata, ExifTool can likely handle it. You can see the complete list of supported file types on the [official ExifTool website](https://exiftool.org/).
+
+
 
 ### What's New?
 
-We've updated the macOS Quick Action to be more reliable and user-friendly! The new version uses a native AppleScript dialog to display metadata and ask for confirmation, which avoids the old permission issues with the Terminal. It's a much smoother experience.
+I've updated the macOS Quick Action to be more reliable and user-friendly! The new version uses a native AppleScript dialog to display metadata and ask for confirmation, which avoids the old permission issues with the Terminal. It's a much smoother experience.
 
 The original terminal script is still available for users on Linux, Windows, or for those who just prefer the command line.
 
@@ -29,11 +41,8 @@ You must have ExifTool installed. The easiest way to install it on a Mac is with
 
 Bash
 ```
-
 brew install exiftool 
 ```
-
-
 
 ---
 
@@ -57,7 +66,7 @@ This method provides a native macOS pop-up to review metadata and is the most st
 6. Save the Quick Action with a name like "Review & Strip Metadata."
 
 AppleScript
-```AppleScript
+```
 
 on run {input, parameters} 
 	-- Loop through each file that was selected 
@@ -94,7 +103,6 @@ end run
 #### Method 2: The Original Terminal Script (For macOS, Linux, and Windows)
 
 This method uses a shell script that you can run from your terminal. On Windows, you will need a Bash environment like [Git Bash](https://git-scm.com/download/win) or [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
-
 
 
 1. Make the script executable (you only have to do this once): 
